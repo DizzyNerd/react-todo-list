@@ -9,8 +9,10 @@
 
 body,
 html,
-#root{
+#root {
   height: 100%;
+  background: rgb(148,187,233);
+  background: linear-gradient(0deg, rgba(148,187,233,1) 40%, rgba(238,174,202,1) 100%);
 }
 
 .todo-form {
@@ -35,8 +37,8 @@ li {
 }
 
 .App-header {
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background: rgb(148,187,233);
+  background: linear-gradient(0deg, rgba(148,187,233,1) 40%, rgba(238,174,202,1) 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
